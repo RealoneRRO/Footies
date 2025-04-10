@@ -36,9 +36,17 @@ Choosing the right optimizer is also essential as it is widely used for its abil
 ## In Conclusion
 The deep learning model built with the Xception architecture effectively utilizes transfer learning by repurposing a pretrained network to solve a custom image classification task. By freezing the base model and adding a lightweight classification head, the model benefits from the learned features of a large-scale dataset (ImageNet) while focusing on learning the unique features of our specific dataset. Techniques like dropout, data augmentation, and early stopping were key in enhancing the model's generalization and preventing overfitting during training. In conclusion, the model architecture, preprocessing pipeline, and training strategies come together to form a high-performing, efficient, and scalable deep learning solution for image classification. It’s flexible enough for fine-tuning and can be adapted to similar real-world computer vision problems with ease. Whether for production deployment or continued experimentation, this model provides a solid foundation for accurate and intelligent visual recognition systems.
 
-
+## Installation
+* Python (3.8 or later)
+* Pip (Python package manager)
+* Git (to clone the repository)
+* FlaskAPI (Running Locally)
+* Streamlit(Using Web Apps)
+* Docker (if you want to run it in a container)
+* Preferably run the code on a cloud.
+  
 ## Extra Resources
 * [Multi-GPU TensorFlow on Saturn Cloud](https://saturncloud.io/blog/tensorflow_intro/)
 * [Overview on GPUs](https://saturncloud.io/docs/reference/intro_to_gpu/)
 * [Learn more about TensorFlow](https://www.tensorflow.org/)
-* Prefer to use PyTorch? [Visit our docs about that!](https://saturncloud.io/docs/examples/pytorch/)
+* [Check out my article on this project here](https://medium.com/@sashefrro/footies-using-deep-learning-to-classify-footwear-2c80b6fdb0e6)
